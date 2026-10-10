@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Release History — Influencer OS</title>
+<meta name="description" content="Selected code and interface changes from the Influencer OS v1.23 release. No customer-performance claims.">
+<link rel="canonical" href="https://influenceros.dynv6.net/changelog/">
+<link rel="alternate" hreflang="en" href="https://influenceros.dynv6.net/changelog/">
+<link rel="alternate" hreflang="ru" href="https://influenceros.dynv6.net/ru/changelog/">
+<link rel="alternate" hreflang="x-default" href="https://influenceros.dynv6.net/changelog/">
+<meta property="og:title" content="Release History — Influencer OS">
+<meta property="og:description" content="Selected code and interface changes from the Influencer OS v1.23 release. No customer-performance claims.">
+<meta property="og:type" content="website"><meta property="og:image" content="https://influenceros.dynv6.net/assets/ui/app-prompt-builder-1440.png">
+<meta property="og:url" content="https://influenceros.dynv6.net/changelog/">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/fonts/fonts.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<script>(function(){try{var s=localStorage.getItem('ios2-theme');var m=window.matchMedia('(prefers-color-scheme: dark)').matches;var t=s||(m?'dark':'light');document.documentElement.dataset.theme=t;var c=document.querySelector('meta[name=theme-color]');if(c)c.setAttribute('content',t==='dark'?'#0C0C0C':'#FFFFFF');}catch(e){}})();</script>
+<meta name="robots" content="index,follow"></head>
+<header class="site-head"><a class="skip" href="#main">Skip to content</a><div class="head-in">
+<a class="wordmark" href="/">Influencer OS</a>
+<nav class="head-nav" aria-label="Sections">
+<a href="/system/">System</a><a href="/about/">About</a>
+<a href="/case/">Case</a>
+<a href="/guide/">Guide</a>
+
+<a href="/changelog/" aria-current="page">What’s new</a>
+<a href="/claude/">Built with Claude</a>
+</nav>
+<div class="lang"><a href="/changelog/" aria-current="true" hreflang="en">EN</a><a href="/ru/changelog/" hreflang="ru">RU</a></div>
+<button class="theme-btn" type="button" aria-label="Theme" data-tl="Switch to light theme" data-td="Switch to dark theme">◐</button>
+<a class="buy" href="/claude/">Built with Claude ↗</a>
+<button class="sheet-btn" type="button" aria-expanded="false" aria-controls="sheet" data-menu="Index" data-close="Close">Index</button>
+</div>
+<div class="sheet" id="sheet" aria-label="Index">
+<a href="/system/">System</a><a href="/about/">About</a>
+<a href="/case/">Case</a>
+<a href="/guide/">Guide</a>
+
+<a href="/changelog/">What’s new</a>
+<a href="/claude/">Built with Claude</a></div></header>
+<main id="main"><section class="hero" style="border-bottom:none"><div class="wrap hero-grid">
+<div class="hero-left">
+<p class="kicker rv">APPENDIX · VERSION HISTORY</p>
+<h1 class="h1 rv"><span style="display:block">What’s new.</span></h1>
+<div class="hero-body"><p class="lead rv">Selected release-history notes for Influencer OS v1.23, based on the product repository. These describe code changes, not independently measured production outcomes or customer results.</p></div>
+
+</div>
+
+</div></section>
+<section class="folio" style="border-bottom:none"><div class="wrap"><div style="max-width:860px"><div class="log-line"><span class="v">1.23</span><span class="d">07.2026</span><ul><li>The studio is split into modules: presets and formats in lib, undo/redo as a hook, header, banners, bar and settings as components</li><li>Heavy blocks (self-check, canon editor) load on demand for a faster start</li><li>Backups now carry presets; vitest tests and CI added; the UI dictionary is typed</li></ul></div><div class="log-line"><span class="v">1.22</span><span class="d">07.2026</span><ul><li>The action bar is one row: format left, Build right, the rest behind the options button</li><li>A cleaner header: language, theme and hints moved into Settings, with the shortcuts list</li><li>Drafts restore silently (with undo), banners show one at a time, type & radius scales are tokenized</li></ul></div><div class="log-line"><span class="v">1.21</span><span class="d">07.2026</span><ul><li>The studio tour now spotlights the real UI and never blocks the screen</li><li>Undo/redo for generations (⌘Z / ⇧⌘Z), keys 1–4 switch the video engine, ? shows all shortcuts</li><li>Installable PWA with an offline shell; long history and scene lists stay fast</li></ul></div><div class="log-line"><span class="v">1.20</span><span class="d">07.2026</span><ul><li>License cache is now server-signed (HMAC) — console forgery no longer works</li><li>License checks are protected from key brute-forcing: per-IP rate limit</li><li>Site-wide CSP and security headers; a storage warning next to the AI key field</li></ul></div><div class="log-line"><span class="v">1.19</span><span class="d">07.2026</span><ul><li>Showcase regrouped by real shoots: 11 projects, every thumbnail visible at once — no tabs, shoots never mix</li><li>Showcase now sits right under the hero; shorter landing: the demo section is gone, versions fold away</li><li>Outfit swap: a before/after slider next to the swap loop; new multi-density gaussian glass blur for prompts</li></ul></div></div></div></section>
+</main>
+<footer class="site-foot"><div class="wrap foot-grid">
+<p class="foot-disc">Influencer OS prepares character and scene instructions; image and video rendering takes place in external services. The showcased media is illustrative, not a controlled identity-consistency benchmark or a verified Claude output. Use only authorized references, disclose synthetic media when required, and respect platform and third-party rights.</p>
+<div class="foot-index"><p class="foot-h">Index</p><a href="/">Flagship</a><a href="/system/">System</a><a href="/about/">About</a><a href="/case/">Case</a><a href="/guide/">Guide</a><a href="/changelog/">What’s new</a></div>
+<div class="foot-links"><p class="foot-h">Links</p>
+<a href="https://v0-influenceros01.vercel.app/" rel="noopener">Open the studio (app)</a>
+<a href="/about/">Product overview</a>
+
+</div>
+<p class="foot-copy">© 2026 Influencer OS · Independent software project</p>
+</div></footer>
+<script src="/assets/js/app.js" defer></script>
+</body>
+</html>
